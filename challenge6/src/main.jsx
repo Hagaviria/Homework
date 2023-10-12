@@ -5,6 +5,6 @@ import GifGrid from './Challenge8/GifGrid'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- <GifGrid category='lol'/>
+ <GifGrid />
   </React.StrictMode>,
 )
