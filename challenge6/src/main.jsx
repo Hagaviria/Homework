@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './FirstApp.css'
-import{HookC} from './Challenge9/HookC'
-import { Giphy } from './Challenge10/Giphy'
+import './Challenge 11/Multiple.css'
+import { MultipleCustomHooks } from './Challenge 11/MultipleCustomHooks'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <Giphy></Giphy>
+     <MultipleCustomHooks/>
   </React.StrictMode>,
 )
