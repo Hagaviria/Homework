@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './Gif.css'
-import GifGrid from './Challenge8/GifGrid'
+import './FirstApp.css'
+import {FirstApp}from './Components/FirstApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- <GifGrid />
+ <FirstApp/>
   </React.StrictMode>,
 )
