@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
-import { Categories } from './Components/Categories'
+import './Gif.css'
+import GifGrid from './Challenge8/GifGrid'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
- <Categories/>
+ <GifGrid category='lol'/>
   </React.StrictMode>,
 )
